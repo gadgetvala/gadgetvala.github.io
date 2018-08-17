@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFF00;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.score__setter--box {
+    position: relative  ;
+    display: inline-block;
+    background-color: #fff;
+    padding: 1rem 3rem 2rem 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.score__setter--text {
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 500;
+}
+#winner__score {
+    border-color: rgb(255, 0, 0);
+    padding: .5rem 1.5rem;
+    border-radius: 10rem;
+    font-size: 1Srem;
+    text-align: center;
+}
+#winner__score:focus {
+    border-color: rgb(36, 231, 36);
+    outline: none;
+    
+}
+.btn {
+    padding: .8rem;
+    margin: 0 0 0 1rem;
+    border-radius: 10rem;
+
+}
+.btn:focus {
+    outline: none;
+}
+.game__box {
+    margin-top: 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% 80%;
+}
+.p1__score, .p2__score {
+    font-size: 10rem;
+}
+.wepons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 10rem 1fr;
+    height: 20vh;
+    margin-top: 3rem;
+    justify-items: center;
+    align-content: end;
+}
+#wepon__1 {
+    width: 30%;
+} 
+.wepon__all {
+    width: 20%;
+    display: block;
+    cursor: pointer;
+}
+.selection {
+    font-size: 1.5rem;
+}
+.zoom {
+    width: 30% !important;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stone Paper Scissor --game</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="score__setter--box">
+        <p class="score__setter--text">SET WINNER SCORE</p>
+        <input type="number" id="winner__score" placeholder="Enter winning score">
+        <button type="submit" class="btn">SUBMIT</button>
+    </div>      
+    <div class="game__box">
+        <h1 class="player_1">HUMAN</h1>
+        <h1 class="player_2">COMPUTER</h1>
+        <h2 class="p1__score">12</h2>
+        <h2 class="p2__score">10</h2>
+    </div>
+    <div class="wepons">
+        <img src="img/wepon1.svg" alt="wepon1" id="wepon__1" class="wepon__all">
+        <img src="img/wepon2.svg" alt="wepon2" id="wepon__2" class="wepon__all">
+        <img src="img/wepon3.svg" alt="wepon3" id="wepon__3" class="wepon__all">
+        <div id="wepon__text--1" class="selection"></div>
+        <div id="wepon__text--2" class="selection">computer selected</div>
+        <div id="wepon__text--3" class="selection"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

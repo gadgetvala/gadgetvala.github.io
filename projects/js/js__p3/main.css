@@ -1,0 +1,149 @@
+:root {
+    --color-primary-1: #00d2ff;
+    --color-primary-2: #3a7bd5;
+    --color-text: #606470;
+    --color-border: #00d2ff;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    color: var(--color-text);
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    width: 100vw;
+    background-image: linear-gradient(to right bottom, var(--color-primary-1), var(--color-primary-2));
+}
+
+.container {
+    background-color: #fff;
+    height: 89vh;
+    width: 85vw;
+    margin: 5vh auto;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, .7);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.ply2__box{
+    background-color: rgb(221, 221, 221);
+}
+.ply1 {
+    color: var(--color-text);
+}
+.heading {
+    display: flex;
+    align-items: center; 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 4rem;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.restart {
+    display: block;
+    margin-right: 1rem;
+    height: 3rem;
+    fill: var(--color-primary-1);
+}
+.ply1, .ply2 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    height: 100%;
+} 
+.box1 {
+    align-self: end;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: inherit;
+}
+
+.box2 {
+    align-self: center;
+    font-size: 10rem;
+}
+.box3 {
+    font-weight: lighter;
+    text-transform: uppercase;
+    position: relative;
+}
+.box3-cover {
+    padding: 2rem;
+    display: inline-block;
+    border: 2px solid var(--color-border);
+}
+
+.score-hold {
+    font-size: 4rem;
+}
+
+.btn{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    border: 2px solid var(--color-border);
+    border-radius: 100px;
+}
+.btn__img {
+    height: 3.5rem;
+}
+.btn__text {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+.btn-right {
+    position: absolute;
+    right: 100%;
+    transform: translateX(50%);
+}
+.btn-left {
+    position: absolute;
+    left: 100%;
+    transform: translateX(-50%) translateY(115%);    
+}
+
+.btn:hover {
+    background-color: var(--color-primary-1);
+    color: #fff;
+    cursor: pointer;
+}
+.restart, h1{
+    cursor: pointer;
+    transition: all .3s;
+}
+.restart:hover  {
+    transform: rotate(45deg);
+}
+
+.dice {
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    bottom: 110%;
+    transform: translateX(-50%);
+}
+.dice__img {
+    width: 100%;
+    height: 100%;
+}
+.winner {
+    background-color: var(--color-primary-1);
+    color: #fff;
+}

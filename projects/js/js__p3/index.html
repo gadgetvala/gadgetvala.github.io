@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PIG game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="ply1__box">
+            <div class="heading">
+                <img src="img/icon.svg" alt="restart" class="restart">
+                <h1>New Game</h1>
+            </div>
+        <div class="ply1" id="ply1">
+            <div class="box1" id="player__1">PLAYER 1</div>
+            <div class="box2" id="player__1--score">0</div>
+            <div class="box3">
+                <span class="box3-cover">
+                    <div class="score-hold" id="player__1--current">0</div>
+                    <div class="score_current">current</div>
+                </span>
+                <div class="btn btn-left" id="btn-add">
+                        <img src="img/add.svg" alt="icon" class="btn__img">
+                        <span class="btn__text">ADD</span>
+                    </div>
+            </div>
+        </div>
+        </div>
+        <div class="ply2__box">
+                <div class="ply2" id="ply2">
+                    <div class="box1" id="player__2">PLAYER 2</div>
+                    <div class="box2" id="player__2--score">0</div>
+                    <div class="box3">
+                        <div class="dice">
+                            <img src="img/dice-6.svg" alt="dice" class="dice__img">
+                        </div>
+                        <div class="btn btn-right" id="btn-roll">
+                            <img src="img/dice-numbers-three-and-four.svg" alt="icon" class="btn__img">
+                            <span class="btn__text">ROLL</span>
+                        </div>
+                        <span class="box3-cover">
+                            <div class="score-hold" id="player__2--current">0</div>
+                            <div class="score_current">current</div>
+                        </span>
+                        
+                    </div>
+                </div>
+        </div>
+    </div>    
+    <script src="main.js"></script>
+</body>
+</html>
