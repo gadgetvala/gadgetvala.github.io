@@ -4,7 +4,7 @@
   "description": "my portfolio site",
   "main": "index.js",
   "scripts": {
-    "compile:scss": "node-sass scss/main.scss  css/main.css -w"
+    "compile": "node-sass scss/main.scss  css/main.css -w"
   },
   "author": "Suraj Verma",
   "license": "ISC",

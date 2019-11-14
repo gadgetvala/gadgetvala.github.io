@@ -1,13 +1,16 @@
 .header {
-  background-color: #333C3D;
+  background: linear-gradient(to right bottom, #3c3b3f, #473f46, #554247, #614744, #664e3e, #60533a, #56583b, #495d42, #395c4b, #2b5b56, #26575f, #2c5364);
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite; }
 
 .navigation {
-  background-color: #333C3D;
+  background-color: linear-gradient(to right bottom, #3c3b3f, #473f46, #554247, #614744, #664e3e, #60533a, #56583b, #495d42, #395c4b, #2b5b56, #26575f, #2c5364);
   color: #eee;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  animation: gradientBG 15s ease infinite; }
   .navigation__list {
     list-style: none;
     font-size: 1.5rem;
@@ -119,7 +122,7 @@
   padding: 10rem 4rem; }
 
 .css {
-  background-image: linear-gradient(to right, #57B971, #00C9FF);
+  background: linear-gradient(to right, #334d50, #cbcaa5);
   padding: 0 3rem 10rem 3rem; }
 
 .projects {
@@ -163,7 +166,7 @@
     font-size: 2rem; }
 
 .javascript {
-  background-image: linear-gradient(to left, #57B971, #00C9FF);
+  background: linear-gradient(to left, #334d50, #cbcaa5);
   padding: 0 3rem 10rem 3rem; }
 
 .about {
@@ -359,3 +362,11 @@ body {
 ::selection {
   color: #eee;
   background-color: #00C9FF; }
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }

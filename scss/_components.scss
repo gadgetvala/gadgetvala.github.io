@@ -1,13 +1,45 @@
 .header {
-    background-color: $color-grey;
+    background: linear-gradient(
+        to right bottom,
+        #3c3b3f,
+        #473f46,
+        #554247,
+        #614744,
+        #664e3e,
+        #60533a,
+        #56583b,
+        #495d42,
+        #395c4b,
+        #2b5b56,
+        #26575f,
+        #2c5364
+    );
     height: 100vh;
     width: 100%;
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
 }
+
 .navigation {
-    background-color: $color-grey;
+    background-color: linear-gradient(
+        to right bottom,
+        #3c3b3f,
+        #473f46,
+        #554247,
+        #614744,
+        #664e3e,
+        #60533a,
+        #56583b,
+        #495d42,
+        #395c4b,
+        #2b5b56,
+        #26575f,
+        #2c5364
+    );
     color: $color-white;
     display: flex;
     align-items: center;
+    animation: gradientBG 15s ease infinite;
     &__list {
         list-style: none;
         font-size: 1.5rem;
@@ -29,6 +61,7 @@
         }
     }
 }
+
 .logo {
     background-color: $color-green;
     clip-path: polygon(0 0, 100% 0, 87% 100%, 0 100%);
@@ -138,7 +171,7 @@
 }
 
 .css {
-    background-image: linear-gradient(to right, $color-green, $color-blue);
+    background: linear-gradient(to right, #334d50, #cbcaa5);
     padding: 0 3rem 10rem 3rem;
 }
 .projects {
@@ -186,7 +219,7 @@
 }
 
 .javascript {
-    background-image: linear-gradient(to left, $color-green, $color-blue);
+    background: linear-gradient(to left, #334d50, #cbcaa5);
     padding: 0 3rem 10rem 3rem;
 }
 .about {
