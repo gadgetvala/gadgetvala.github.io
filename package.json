@@ -1,12 +1,12 @@
 {
-  "name": "saikiran_portfolio",
+  "name": "gadgetvala_portfolio",
   "version": "1.0.0",
   "description": "my portfolio site",
   "main": "index.js",
   "scripts": {
     "compile:scss": "node-sass scss/main.scss  css/main.css -w"
   },
-  "author": "Saikiran Rudra",
+  "author": "Suraj Verma",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.9.0"
