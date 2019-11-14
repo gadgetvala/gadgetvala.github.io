@@ -16,7 +16,7 @@
         @media screen and (max-width: 37.5em) {
             visibility: hidden;
         }
-                
+
         &--links:link,
         &--links:visited {
             color: $color-white;
@@ -25,7 +25,7 @@
         }
         &--links:hover {
             background-color: $color-green;
-            clip-path: polygon(10% 0, 110% 0, 90% 100%, -10% 100%)
+            clip-path: polygon(10% 0, 110% 0, 90% 100%, -10% 100%);
         }
     }
 }
@@ -38,14 +38,14 @@
     @media screen and (max-width: 32.625em) {
         width: 60%;
     }
-    @media screen and (max-width: 27.5em){
-        width: 110%
+    @media screen and (max-width: 27.5em) {
+        width: 110%;
     }
     &__name {
         font-size: 2rem;
-        letter-spacing: .3rem;
-        margin-bottom: .2rem;
-        @media screen and (max-width: 22em){
+        letter-spacing: 0.3rem;
+        margin-bottom: 0.2rem;
+        @media screen and (max-width: 22em) {
             font-size: 1.5rem;
         }
         &--first {
@@ -58,40 +58,57 @@
     &__skill {
         font-size: 1.5rem;
         font-weight: 400;
-        letter-spacing: .3rem;
+        letter-spacing: 0.3rem;
 
-        @media screen and (max-width: 22em){
+        @media screen and (max-width: 22em) {
             font-size: 1.2rem;
         }
     }
-
 }
 .hero {
     background-color: $color-grey;
     &__wrapper {
         width: 70%;
         @include center;
-        @media screen and (max-width: 22em){
+        @media screen and (max-width: 22em) {
             width: 90%;
         }
-
     }
-    
+
     &__text {
         color: $color-white;
         font-weight: 600;
         text-transform: uppercase;
         font-size: 5rem;
-        letter-spacing: .4rem;
+        letter-spacing: 0.4rem;
         text-align: center;
         line-height: 8rem;
         margin-bottom: 3.8rem;
-        @media screen and (max-width: 22em){
+        @media screen and (max-width: 22em) {
             font-size: 4rem;
             line-height: 7rem;
         }
     }
-    
+
+    &__text-box {
+        color: $color-white;
+        font-weight: 200;
+        text-transform: uppercase;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        text-align: center;
+        line-height: 2rem;
+        margin-bottom: 3.8rem;
+        @media screen and (max-width: 22em) {
+            font-size: 4rem;
+            line-height: 7rem;
+        }
+    }
+
+    &__text-design {
+        color: #29d256;
+    }
+
     &__btn:link,
     &__btn:visited {
         @include horCenter;
@@ -100,9 +117,9 @@
         font-weight: 400;
         color: $color-grey;
         background-color: $color-white;
-        border-radius: 10rem;    
-        padding: 1.8rem 2.5rem 1.5rem 2.5rem; 
-        transition: all .4s;
+        border-radius: 10rem;
+        padding: 1.8rem 2.5rem 1.5rem 2.5rem;
+        transition: all 0.4s;
     }
 
     &__btn:hover {
@@ -110,7 +127,6 @@
         border-radius: 0;
         color: $color-white;
     }
-
 }
 
 .heading__two {
@@ -119,7 +135,6 @@
     color: $color-white;
     text-transform: uppercase;
     padding: 10rem 4rem;
-
 }
 
 .css {
@@ -138,7 +153,7 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    @media screen and (max-width: 26.5625em){
+    @media screen and (max-width: 26.5625em) {
         grid-template-columns: 1fr;
         grid-gap: 4rem;
     }
@@ -161,8 +176,8 @@
         top: 0;
         left: 0;
         width: 100%;
-        height:0;
-        transition: all .4s;
+        height: 0;
+        transition: all 0.4s;
     }
     &:hover::after {
         height: 100%;
@@ -184,12 +199,12 @@
     }
 }
 .images {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   flex-basis: 1rem;
-   align-items: center;
-   padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 1rem;
+    align-items: center;
+    padding-top: 4rem;
 }
 
 .title {
@@ -239,14 +254,13 @@
         height: 5rem;
         width: 5rem;
         margin: 2rem;
-        transition: transform .4s;
+        transition: transform 0.4s;
         cursor: pointer;
-        
+
         &:hover {
             transform: scale(1.5);
         }
     }
-
 }
 
 .end {
@@ -256,7 +270,6 @@
     text-align: center;
     letter-spacing: 1rem;
     text-transform: uppercase;
-
 }
 .heart {
     color: $color-green;
@@ -265,25 +278,26 @@
 
 // SIDE MENU
 
-
-.side__menu, 
+.side__menu,
 .side__menu--background,
 .side__menu--links,
 .side__menu--list,
 .side__menu--values,
-.cross1, .cross2, .cross3 {
+.cross1,
+.cross2,
+.cross3 {
     visibility: hidden;
 }
 
-
 @media screen and (max-width: 37.5em) {
-
-    .side__menu, 
+    .side__menu,
     .side__menu--background,
     .side__menu--links,
     .side__menu--list,
     .side__menu--values,
-    .cross1, .cross2, .cross3 {
+    .cross1,
+    .cross2,
+    .cross3 {
         visibility: visible;
     }
     .side__menu {
@@ -297,7 +311,7 @@
         border-radius: 100rem;
         background-color: $color-white;
     }
-    
+
     .side__menu--background {
         position: fixed;
         z-index: 4;
@@ -308,19 +322,19 @@
         height: 7rem;
         border-radius: 100rem;
         background-color: $color-green;
-        transition: all .4s;
+        transition: all 0.4s;
     }
-    
+
     .cross1 {
         position: absolute;
         top: 1.7rem;
         left: 50%;
         transform: translateX(-50%);
         width: 3.5rem;
-        height: .6rem;
+        height: 0.6rem;
         background-color: $color-grey;
     }
-    
+
     .cross2 {
         background-color: $color-grey;
         position: absolute;
@@ -328,7 +342,7 @@
         left: 50%;
         transform: translateX(-50%);
         width: 3.5rem;
-        height: .6rem;
+        height: 0.6rem;
     }
     .cross3 {
         background-color: $color-grey;
@@ -337,9 +351,9 @@
         left: 50%;
         transform: translateX(-50%);
         width: 3.5rem;
-        height: .6rem;
+        height: 0.6rem;
     }
-    
+
     .side__menu--list {
         position: fixed;
         z-index: 5;
@@ -349,14 +363,14 @@
         font-size: 0;
         transform: translate(-50%, -50%);
         list-style: none;
-        transition: all .4s;
+        transition: all 0.4s;
     }
-    
+
     .side__menu--values {
-        padding: 2rem 4rem;    
+        padding: 2rem 4rem;
     }
     .side__menu--links:link,
-    .side__menu--links:visited{
+    .side__menu--links:visited {
         text-decoration: none;
         font-size: inherit;
         color: $color-white;
@@ -365,6 +379,5 @@
     .side__menu--links:hover {
         background-color: $color-white;
         color: $color-grey;
-    } 
-
+    }
 }

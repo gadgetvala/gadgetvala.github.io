@@ -38,8 +38,8 @@
       width: 110%; } }
   .logo__name {
     font-size: 2rem;
-    letter-spacing: .3rem;
-    margin-bottom: .2rem; }
+    letter-spacing: 0.3rem;
+    margin-bottom: 0.2rem; }
     @media screen and (max-width: 22em) {
       .logo__name {
         font-size: 1.5rem; } }
@@ -50,7 +50,7 @@
   .logo__skill {
     font-size: 1.5rem;
     font-weight: 400;
-    letter-spacing: .3rem; }
+    letter-spacing: 0.3rem; }
     @media screen and (max-width: 22em) {
       .logo__skill {
         font-size: 1.2rem; } }
@@ -71,7 +71,7 @@
     font-weight: 600;
     text-transform: uppercase;
     font-size: 5rem;
-    letter-spacing: .4rem;
+    letter-spacing: 0.4rem;
     text-align: center;
     line-height: 8rem;
     margin-bottom: 3.8rem; }
@@ -79,6 +79,21 @@
       .hero__text {
         font-size: 4rem;
         line-height: 7rem; } }
+  .hero__text-box {
+    color: #eee;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 3.8rem; }
+    @media screen and (max-width: 22em) {
+      .hero__text-box {
+        font-size: 4rem;
+        line-height: 7rem; } }
+  .hero__text-design {
+    color: #29d256; }
   .hero__btn:link, .hero__btn:visited {
     position: absolute;
     left: 50%;
@@ -90,7 +105,7 @@
     background-color: #eee;
     border-radius: 10rem;
     padding: 1.8rem 2.5rem 1.5rem 2.5rem;
-    transition: all .4s; }
+    transition: all 0.4s; }
   .hero__btn:hover {
     background-color: #57B971;
     border-radius: 0;
@@ -142,7 +157,7 @@
     left: 0;
     width: 100%;
     height: 0;
-    transition: all .4s; }
+    transition: all 0.4s; }
   .project:hover::after {
     height: 100%;
     font-size: 2rem; }
@@ -214,7 +229,7 @@
     height: 5rem;
     width: 5rem;
     margin: 2rem;
-    transition: transform .4s;
+    transition: transform 0.4s;
     cursor: pointer; }
     .social__icon:hover {
       transform: scale(1.5); }
@@ -236,7 +251,9 @@
 .side__menu--links,
 .side__menu--list,
 .side__menu--values,
-.cross1, .cross2, .cross3 {
+.cross1,
+.cross2,
+.cross3 {
   visibility: hidden; }
 
 @media screen and (max-width: 37.5em) {
@@ -245,7 +262,9 @@
   .side__menu--links,
   .side__menu--list,
   .side__menu--values,
-  .cross1, .cross2, .cross3 {
+  .cross1,
+  .cross2,
+  .cross3 {
     visibility: visible; }
   .side__menu {
     position: fixed;
@@ -267,14 +286,14 @@
     height: 7rem;
     border-radius: 100rem;
     background-color: #57B971;
-    transition: all .4s; }
+    transition: all 0.4s; }
   .cross1 {
     position: absolute;
     top: 1.7rem;
     left: 50%;
     transform: translateX(-50%);
     width: 3.5rem;
-    height: .6rem;
+    height: 0.6rem;
     background-color: #333C3D; }
   .cross2 {
     background-color: #333C3D;
@@ -283,7 +302,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 3.5rem;
-    height: .6rem; }
+    height: 0.6rem; }
   .cross3 {
     background-color: #333C3D;
     position: absolute;
@@ -291,7 +310,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 3.5rem;
-    height: .6rem; }
+    height: 0.6rem; }
   .side__menu--list {
     position: fixed;
     z-index: 5;
@@ -301,7 +320,7 @@
     font-size: 0;
     transform: translate(-50%, -50%);
     list-style: none;
-    transition: all .4s; }
+    transition: all 0.4s; }
   .side__menu--values {
     padding: 2rem 4rem; }
   .side__menu--links:link,

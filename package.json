@@ -9,6 +9,7 @@
   "author": "Suraj Verma",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.9.0"
-  }
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {}
 }
