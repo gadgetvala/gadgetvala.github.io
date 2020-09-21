@@ -2,8 +2,7 @@
   background: linear-gradient(to right bottom, #3c3b3f, #473f46, #554247, #614744, #664e3e, #60533a, #56583b, #495d42, #395c4b, #2b5b56, #26575f, #2c5364);
   height: 100vh;
   width: 100%;
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite; }
+  background-size: 400% 400%; }
 
 .navigation {
   background-color: linear-gradient(to right bottom, #3c3b3f, #473f46, #554247, #614744, #664e3e, #60533a, #56583b, #495d42, #395c4b, #2b5b56, #26575f, #2c5364);
@@ -120,57 +119,6 @@
   color: #eee;
   text-transform: uppercase;
   padding: 10rem 4rem; }
-
-.css {
-  /*background: linear-gradient(to right, #334d50, #cbcaa5);*/
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  padding: 0 3rem 10rem 3rem; }
-
-.projects {
-  box-sizing: content-box;
-  display: grid;
-  cursor: pointer;
-  position: absolute;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-  grid-gap: 4%;
-  align-items: center;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%); }
-  @media screen and (max-width: 26.5625em) {
-    .projects {
-      grid-template-columns: 1fr;
-      grid-gap: 4rem; } }
-
-.project {
-  position: relative; }
-  .project__img {
-    width: 100%; }
-  .project::after {
-    content: attr(data-content);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #eee;
-    font-size: 0;
-    text-align: center;
-    background-color: #333C3D;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 0;
-    transition: all 0.4s; }
-  .project:hover::after {
-    height: 100%;
-    font-size: 2rem; }
-
-.javascript {
-  /*background: linear-gradient(to left, #334d50, #cbcaa5);*/
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  padding: 0 3rem 10rem 3rem;
-  overflow: hidden; }
 
 .about {
   background-color: #333C3D;

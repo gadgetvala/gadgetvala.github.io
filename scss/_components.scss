@@ -170,61 +170,6 @@
     padding: 10rem 4rem;
 }
 
-.css {
-    /*background: linear-gradient(to right, #334d50, #cbcaa5);*/
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    padding: 0 3rem 10rem 3rem;
-}
-.projects {
-    box-sizing: content-box;
-    display: grid;
-    cursor: pointer;
-    position: absolute;
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%;
-    grid-gap: 4%;
-    align-items: center;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    @media screen and (max-width: 26.5625em) {
-        grid-template-columns: 1fr;
-        grid-gap: 4rem;
-    }
-}
-.project {
-    position: relative;
-    &__img {
-        width: 100%;
-    }
-    &::after {
-        content: attr(data-content);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: $color-white;
-        font-size: 0;
-        text-align: center;
-        background-color: $color-grey;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 0;
-        transition: all 0.4s;
-    }
-    &:hover::after {
-        height: 100%;
-        font-size: 2rem;
-    }
-}
-
-.javascript {
-    /*background: linear-gradient(to left, #334d50, #cbcaa5);*/
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    padding: 0 3rem 10rem 3rem;
-    overflow: hidden;
-}
 .about {
     background-color: $color-grey;
     position: relative;
