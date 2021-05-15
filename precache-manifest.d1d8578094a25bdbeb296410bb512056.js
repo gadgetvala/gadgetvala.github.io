@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9636cb58e1e80a3fc782bb3bd53e9c72",
+    "revision": "e5a7ed71a7e2b27778371c8440b60c9f",
     "url": "/index.html"
   },
   {
-    "revision": "c5ffbfcd5a07fbda3cf3",
+    "revision": "20da0eaf1bd6c0cd9dd9",
     "url": "/static/css/2.451bf2e4.chunk.css"
   },
   {
-    "revision": "946e599b1e6a356b404b",
-    "url": "/static/css/main.68b080b9.chunk.css"
+    "revision": "d27a9fcac4d3c333601b",
+    "url": "/static/css/main.71c25991.chunk.css"
   },
   {
-    "revision": "c5ffbfcd5a07fbda3cf3",
-    "url": "/static/js/2.5d793560.chunk.js"
+    "revision": "20da0eaf1bd6c0cd9dd9",
+    "url": "/static/js/2.10d7e6ee.chunk.js"
   },
   {
     "revision": "c87e50d81cc7b5311525cc6fd5482ea5",
-    "url": "/static/js/2.5d793560.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.10d7e6ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "946e599b1e6a356b404b",
-    "url": "/static/js/main.a33dc3b5.chunk.js"
+    "revision": "d27a9fcac4d3c333601b",
+    "url": "/static/js/main.e0f9afc8.chunk.js"
   },
   {
     "revision": "0964e8eca072fe79337f",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8c9a49d4287b0a6888885e1903e12f0e",
     "url": "/static/media/Whereintheworld-min.8c9a49d4.png"
+  },
+  {
+    "revision": "c32cd727d2dd8dd1fa9568c6af2b6c27",
+    "url": "/static/media/adinda_melia.c32cd727.woff"
   },
   {
     "revision": "5c5e4c382523c16ce6b71fbc7d128f31",
