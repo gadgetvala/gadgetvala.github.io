@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.567118f0.css",
-    "main.js": "/static/js/main.fd084299.js",
+    "main.js": "/static/js/main.21184965.js",
     "static/media/tmdbMovies-min.png": "/static/media/tmdbMovies-min.79c1f9d76eed87687ece.png",
     "static/media/own.jpeg": "/static/media/own.4284184117ba75223ac0.jpeg",
     "static/media/natours-min.png": "/static/media/natours-min.2271fe49c204280763ae.png",
@@ -22,6 +22,7 @@
     "static/media/adinda_melia.woff": "/static/media/adinda_melia.bbd649311b853942d8ca.woff",
     "static/media/logo-white.png": "/static/media/logo-white.941acfe5896a6361f1f1.png",
     "static/media/naaniz_logo.png": "/static/media/naaniz_logo.cee1801c62da77d272ce.png",
+    "static/media/grroom.png": "/static/media/grroom.d0ed3ef9917baef01e2a.png",
     "static/media/sourcerer.svg": "/static/media/sourcerer.9ffb7042aaacec8e712eaefe29598307.svg",
     "static/media/404_new.svg": "/static/media/404_new.88c710fcda831aa3119ecd12533d4318.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -31,10 +32,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.567118f0.css.map": "/static/css/main.567118f0.css.map",
-    "main.fd084299.js.map": "/static/js/main.fd084299.js.map"
+    "main.21184965.js.map": "/static/js/main.21184965.js.map"
   },
   "entrypoints": [
     "static/css/main.567118f0.css",
-    "static/js/main.fd084299.js"
+    "static/js/main.21184965.js"
   ]
 }
